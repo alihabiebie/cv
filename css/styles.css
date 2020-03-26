@@ -1,0 +1,63 @@
+body {
+  background-color: #f9f7f7;
+}
+
+/* bisa pakai font size*/
+h1 {
+  color: #3f72af;
+  font-size: 35px;
+}
+
+h2 {
+  color: #3f72af;
+}
+
+h3 {
+  color: #3f72af;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #112d4e;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/*sama aja kea dibawah tapi yang dibawah ini untuk lebih spesifik biar untuk doi doang*/
+/* kalo mau semua image pake img tapi ini untuk seleksi gambar, bisa juga perkata untuk class jadi bisa banyak class*/
+/* pakai hover biar kalo pas digerakin cursor ke arah yang dituju doi bakal berubah*/
+.broccoli {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.circular:hover {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.pasfoto {
+  width: 200px;
+  height: 200px;
+}
+
+.bibie:hover {
+  width: 250px;
+  height: 250px;
+}
+
+/*untuk seleksi h1 atau heading agar tidak semuanya kena sama aja kea diatas, tapi kalo id gabisa kea class yang semua kata bisa di jadikan banyak class*/
+#judulbanget {
+  color: #596157;
+}
+
+/* untuk id bisa digunakan untuk sekali aja, kalo class bisa di banyak tempat*/
